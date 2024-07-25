@@ -18,19 +18,22 @@ This repository contains the code for a movie recommendation system built using 
    cd movie_recommendation_system
 
 2.**Create a virtual environment:**
-python -m venv venv
+   ```bash
+   python -m venv venv
 
 3.**Activate the virtual environment:**
 
 On Windows:
-venv\Scripts\activate
+   ```bash
+   venv\Scripts\activate
 
 On macOS/Linux:
-source venv/bin/activate
+   ```bash
+   source venv/bin/activate
 
 4.**Install the required packages:**
-
-pip install -r requirements.txt
+   ```bash
+   pip install -r requirements.txt
 
 
 ## Usage
@@ -40,7 +43,8 @@ Run the Jupyter Notebook to preprocess the data and create the necessary pickle 
 
 2.**Run the Streamlit app:**
 
-streamlit run app.py
+   ```bash
+   streamlit run app.py
 
 3.**Interact with the app:**
 
