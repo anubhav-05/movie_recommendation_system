@@ -18,7 +18,6 @@ This repository contains the code for a movie recommendation system built using 
    cd movie_recommendation_system
 
 2.**Create a virtual environment:**
-   ```bash
    python -m venv venv
 
 3.**Activate the virtual environment:**
