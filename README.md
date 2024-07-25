@@ -24,15 +24,15 @@ This repository contains the code for a movie recommendation system built using 
 3.**Activate the virtual environment:**
 
 On Windows:
-   ```bash
+
    venv\Scripts\activate
 
 On macOS/Linux:
-   ```bash
+
    source venv/bin/activate
 
 4.**Install the required packages:**
-   ```bash
+
    pip install -r requirements.txt
 
 
@@ -43,7 +43,6 @@ Run the Jupyter Notebook to preprocess the data and create the necessary pickle 
 
 2.**Run the Streamlit app:**
 
-   ```bash
    streamlit run app.py
 
 3.**Interact with the app:**
