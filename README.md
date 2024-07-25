@@ -33,7 +33,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 
 
-*Usage*
+## Usage
 1.**Prepare the data:**
 
 Run the Jupyter Notebook to preprocess the data and create the necessary pickle files (movie_list.pkl and similarity.pkl).
@@ -48,7 +48,7 @@ Select a movie from the dropdown menu.
 
 Click on the 'Show Recommendation' button to view similar movies along with their posters.
 
-*Data Preparation*
+## Data Preparation
 
 The data preparation is done in a Jupyter Notebook. Here are the steps involved:
 
@@ -88,7 +88,7 @@ Calculate the cosine similarity between the vectors.
 
 Save the processed data and similarity matrix as pickle files.
 
-*Streamlit App*
+## Streamlit App
 
 The Streamlit app (app.py) does the following:
 
@@ -110,5 +110,5 @@ Create a dropdown menu for movie selection.
 
 Display the recommended movies and their posters in a horizontal layout.
 
-*Contributing*
+## Contributing
 Contributions are welcome! If you have any suggestions or improvements, feel free to create a pull request or open an issue.
